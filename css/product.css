@@ -1,0 +1,47 @@
+#digital__product {
+    padding: 130px 0;
+}
+.digitalP__card__main{
+    margin-top: 100px;
+}
+.product__heading h3 {
+    font-family: var(--fontRoboto) !important;
+    font-weight: var(--fontW400);
+    font-size: 16px;
+    line-height: 23px;
+    color: #ff214f;
+}
+
+.product__heading h2 {
+    font-family: var(--fontRoboto) !important;
+    font-weight: var(--fontW300);
+    font-size: 32px;
+    line-height: 40px;
+    color: #232323;
+}
+.digitalP__card__icon{
+    position: relative;
+    font-size: 40px;
+    opacity: 0.5;
+}
+.digitalP__card__icon::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 1px;
+    background: #ff214f;
+}
+.digitalP__card__heading h2{
+    font-weight: var(--fontW500);
+    font-size: 16px;
+    line-height: 23px;
+    color: #232323;
+}
+.digitalP__card__heading p{
+    font-weight: var(--fontW400);
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+}

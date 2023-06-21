@@ -1,0 +1,48 @@
+.banner__text {
+    background: #FF214F;
+}
+
+.banner__heading {
+    font-family: var(--myFont);
+    font-size: 100px;
+    line-height: 95px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+
+.banner__slogan {
+    font-size: 18px;
+    font-weight: var(--fontW300);
+    Color: #fff;
+    /* line-height: 26px; */
+    margin-left: 10px;
+    position: relative;
+}
+.banner__slogan::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 105%;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 0;
+    background: #fff;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.banner__innner{
+    width: 60%;
+    padding: 150px 0;
+}
+.banner_img{
+    /* height: 1000px; */
+}
+.banner_img image{
+    /* height: 100%; */
+    /* object-fit: cover; */
+}

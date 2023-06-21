@@ -1,0 +1,24 @@
+#navbar__main{
+    padding: 10px 0;
+}
+.nav-link{
+    font-family: var(--myFont);
+    font-weight: var(--fontW600) !important;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0,0,0,0.9);
+}
+.nav__active{
+    color: rgba(0,0,0,0.6) !important;
+}
+.nav__icons__main{
+ margin-left: 15px;
+}
+.nav__icons__main a{
+ color: #666;
+}
+.nav__search i{
+ padding: 0px 20px;
+ border-right: 1px solid #666;
+ border-left: 1px solid #666;
+}

@@ -1,0 +1,48 @@
+#unique {
+    padding-bottom: 100px;
+}
+
+.unique__banner {
+    background: url(../images/unique01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.unique__card__main {
+    padding: 0px 30px;
+
+}
+.unique__info {
+    background: #1C1C1C;
+    padding: 60px 0;
+    
+}
+.unique__heading {
+    padding: 0 30px;
+    margin-bottom: 30px;
+}
+
+
+.unique__heading h2 {
+    font-weight: var(--fontW500);
+    font-size: 40px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.unique__card {}
+
+.unique__card h4 {
+    font-weight: var(--fontW500);
+    font-size: 14px;
+    line-height: 24px;
+    color: #d6d5d5;
+}
+
+.unique__card p {
+    font-weight: var(--fontW400);
+    font-size: 14px;
+    line-height: 24px;
+    color: #6f6f6f;
+}
